@@ -1396,3 +1396,13 @@ img {
     border-radius:50px;
 
 }
+
+/*===============================
+      Repair - Bewertungen
+===============================*/
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    width: 100%;
+}
